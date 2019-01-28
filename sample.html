@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>demo</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <script src="jscript.js"></script> -->
+</head>
+<body>
+        <div class="regform">
+        <form name="signup" method="post">
+            <div class="content">
+                    <label>First Name</label>
+                    <input class="l" type="text" name="fname" placeholder="First Name">
+            </div>
+            <div class="content">
+                <label >Middle Name</label>
+                <input class="l" type="text"  name="mname" placeholder="Middle Name">
+            </div>
+            <div class="content">
+                <label >Last Name</label>
+                <input  class="l" type="text"  name="lname" placeholder="Last Name">
+            </div>
+            <div class="content">
+                <label >E-mail</label>
+                <input class="l" type="email"  name="email">
+            </div>
+            <div class="content">
+                <label>Password</label>
+                <input class="l" type="password" name="password" placeholder="password">
+            </div>
+                <div class="content">
+                    <label>Gender</label>
+                        <div class="l">
+                            <input  type="radio" name="gndr" value="male">Male
+                            <input  type="radio"  name="gndr" value="female">Female
+                            <input  type="radio" name="gndr" value="other">other
+                        </div>   
+                 </div>
+            <div class="content">
+                <label>Hobbies</label>
+                <textarea  rows="10" cols="25" class="l"  name="hobbies" placeholder="hobbies"></textarea>
+            </div>
+            <div>
+                <button type= "submit" id="button" class="btn" value="submit">submit</button>
+            </div>
+    </div>
+        <div class="regform">
+                    <table id="t1">
+                        <thead>
+                            <th>First name</th>
+                            <th>Last name</th>
+                            <th>Middle name</th>
+                            <th>Email</th>
+                            <th>Password</th>
+                            <th>Gender</th>
+                            <th>Hobbies</th>
+                        </thead>
+                    <tbody></tbody>
+                    </table>
+        </div>
+     </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+            <script src="jscript.js"></script>
+</body>
+</html>
